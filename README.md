@@ -12,7 +12,7 @@ It allows users to generate random passwords based on their preferred length and
 - Copy the generated password to the clipboard
 - Automatically generate a new password when options are changed
 
-## 📌 How It Works
+##  How It Works
 
 The application uses React's `useState` hook to manage:
 
@@ -24,7 +24,7 @@ The application uses React's `useState` hook to manage:
 
 The `useEffect` hook automatically generates a new password whenever the password length, numbers, or symbols options are changed.
 
-## 👩‍💻 Author
+## Author
 
 **Shivi Mishra**
 
