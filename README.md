@@ -1,16 +1,31 @@
-# React + Vite
+#  Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly **Password Generator** built using **React.js**.  
+It allows users to generate random passwords based on their preferred length and whether they want to include numbers and symbols.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Generate random passwords
+- Adjust password length from **6 to 25 characters**
+- Include numbers in the password
+- Include symbols in the password
+- Copy the generated password to the clipboard
+- Automatically generate a new password when options are changed
 
-## React Compiler
+## 📌 How It Works
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application uses React's `useState` hook to manage:
 
-## Expanding the ESLint configuration
+- Password length
+- Generated password
+- Numbers option
+- Symbols option
+- Copy status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The `useEffect` hook automatically generates a new password whenever the password length, numbers, or symbols options are changed.
+
+## 👩‍💻 Author
+
+**Shivi Mishra**
+
+Built as a beginner React project to practice **React Hooks, state management, event handling, and the Clipboard API**.
